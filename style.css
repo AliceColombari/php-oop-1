@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 30%;
+}
+
+h1 {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+}
+
+.singoloFilm {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 20px;
+    margin: 20px 0px;
+    padding: 20px;
+    color: #fff;
+}
+
+.singoloFilm h3 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+}
+
+.singoloFilm ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.singoloFilm.uno {
+    background-color: #390099;
+}
+
+.singoloFilm.due {
+    background-color: #9E0059;
+}
+
+.singoloFilm.tre {
+    background-color: #FF5400;
+}
+
+.dettagli {
+    margin-top: 15px;
+}
